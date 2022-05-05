@@ -20,7 +20,7 @@
       </v-list-item>
 
       <v-divider></v-divider>
-      
+
       <v-layout column>
         <v-flex mt-3>
           <v-col>
@@ -44,9 +44,9 @@
 
     </v-navigation-drawer>
 
-    <v-content>
+    <v-main>
       <router-view/>
-    </v-content>
+    </v-main>
   </v-app>
 </template>
 
