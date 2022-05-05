@@ -40,7 +40,7 @@ export default {
                 {id:2,title:'Request', description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore esse sit quae blanditiis accusantium commodi tenetur natus magnam officiis reiciendis, optio est. Doloremque maxime hic deserunt alias voluptatem similique! Praesentium. Tempore esse sit quae blanditiis accusantium commodi tenetur natus magnam officiis reiciendis, optio est. Doloremque maxime hic deserunt alias voluptatem similique! Praesentium. Tempore esse sit quae blanditiis accusantium commodi tenetur natus magnam officiis reiciendis, optio est. Doloremque maxime hic deserunt alias voluptatem similique! Praesentium.'}
             ],
         snackbar: false,
-        mensaje: 'a'
+        mensaje: ''
         }
     },
     methods:{
