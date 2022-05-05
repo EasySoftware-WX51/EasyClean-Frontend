@@ -4,7 +4,8 @@
     <v-divider></v-divider>
     <v-layout row wrap justify-center>
       <v-flex xs12 lg8 mt-5 v-for="(item,index) in arrayServices" :key="index">
-        <v-img src="../assets/cleaning.png" height="500"></v-img>
+        <v-img v-if="item.id==1" src="../assets/cleaning.png" height="500"></v-img>
+        <v-img v-if="item.id==2" src="../assets/disinfection.png" height="500"></v-img>
         <v-card class="mt-5">
           <v-card-title >{{item.title}}</v-card-title>
           <v-card-text>

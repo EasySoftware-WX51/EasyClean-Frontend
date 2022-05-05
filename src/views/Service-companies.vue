@@ -9,7 +9,12 @@
       <v-flex xs12 sm6 mt-5 v-for="(item,index) in arrayCompanies" :key="index">
         <v-card>
           <v-card-title>{{item.title}}</v-card-title>
-          <v-img src="../assets/cleaning-company2.jpeg" height="150" contain></v-img>
+          <v-img v-if="item.id==1" src="../assets/cleaning-company.jpeg" height="150" contain></v-img>
+          <v-img v-if="item.id==2" src="../assets/cleaning-company2.jpeg" height="150" contain></v-img>
+          <v-img v-if="item.id==3" src="../assets/cleaning-company3.jpeg" height="150" contain></v-img>
+          <v-img v-if="item.id==4" src="../assets/cleaning-company4.jpeg" height="150" contain></v-img>
+          <v-img v-if="item.id==5" src="../assets/cleaning-company5.jpeg" height="150" contain></v-img>
+          <v-img v-if="item.id==6" src="../assets/cleaning-company6.jpeg" height="150" contain></v-img>
           <v-card-text>{{item.description}}.</v-card-text>
           <v-card-actions>
             <v-btn @click="doaRequest()" color="info" outlined>Aply</v-btn>
