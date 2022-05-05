@@ -13,8 +13,8 @@
                             <v-card-title >{{item.title}} {{item.id}}</v-card-title>
                             <v-card-text>
                             <p>{{item.description}}</p>
-                            <v-btn color="success" class="mr-3">Pay</v-btn>
-                            <v-btn color="error">Cancel</v-btn>
+                            <v-btn color="success" @click="payRequest()" class="mr-3">Pay</v-btn>
+                            <v-btn color="error" @click="cancelRequest()">Cancel</v-btn>
                             </v-card-text>
                         </v-col>
                     </v-row>
@@ -22,6 +22,12 @@
 
             </v-flex>
         </v-layout>
+        <v-snackbar v-model="snackbar">
+            {{ mensaje }}
+            <v-btn color="pink" text v-bind="attrs" @click="snackbar = false">
+            Close
+            </v-btn>
+        </v-snackbar>
     </v-container>
 </template>
 
@@ -32,8 +38,20 @@ export default {
             arrayRequest:[
                 {id:1,title:'Request', description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore esse sit quae blanditiis accusantium commodi tenetur natus magnam officiis reiciendis, optio est. Doloremque maxime hic deserunt alias voluptatem similique! Praesentium. Tempore esse sit quae blanditiis accusantium commodi tenetur natus magnam officiis reiciendis, optio est. Doloremque maxime hic deserunt alias voluptatem similique! Praesentium. Tempore esse sit quae blanditiis accusantium commodi tenetur natus magnam officiis reiciendis, optio est. Doloremque maxime hic deserunt alias voluptatem similique! Praesentium.'},
                 {id:2,title:'Request', description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore esse sit quae blanditiis accusantium commodi tenetur natus magnam officiis reiciendis, optio est. Doloremque maxime hic deserunt alias voluptatem similique! Praesentium. Tempore esse sit quae blanditiis accusantium commodi tenetur natus magnam officiis reiciendis, optio est. Doloremque maxime hic deserunt alias voluptatem similique! Praesentium. Tempore esse sit quae blanditiis accusantium commodi tenetur natus magnam officiis reiciendis, optio est. Doloremque maxime hic deserunt alias voluptatem similique! Praesentium.'}
-            ]
+            ],
+        snackbar: false,
+        mensaje: 'a'
         }
     },
+    methods:{
+        payRequest(){
+            this.snackbar = true
+            this.mensaje= 'Thank you!'
+        },
+        cancelRequest(){
+            this.snackbar = true
+            this.mensaje= 'Cancelled!'
+        }
+    }
 }
 </script>

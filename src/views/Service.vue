@@ -12,7 +12,7 @@
                 <v-img src="../assets/cleaning-company2.jpeg" height="150" contain></v-img>
                 <v-card-text>{{item.description}}.</v-card-text>
                     <v-card-actions>
-                        <v-btn color="info" outlined><router-link to="/" class="text-decoration-none">Aply</router-link></v-btn>
+                        <v-btn color="info" outlined><router-link to="/home" class="text-decoration-none">Aply</router-link></v-btn>
                     </v-card-actions>
                     </v-card>
             </v-flex> 

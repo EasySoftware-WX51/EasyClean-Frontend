@@ -24,19 +24,19 @@
       <v-layout column>
         <v-flex mt-3>
           <v-col>
-          <v-btn block :to="{name: 'home'}">Home</v-btn>
+            <v-btn block :to="{name: 'home'}">Home</v-btn>
           </v-col>
 
           <v-col>
-          <v-btn block :to="{name: 'profile'}">Profile</v-btn>
+            <v-btn block :to="{name: 'profile'}">Profile</v-btn>
           </v-col>
 
           <v-col>
-          <v-btn block :to="{name: 'service'}">Service</v-btn>
+            <v-btn block :to="{name: 'service'}">Service</v-btn>
           </v-col>
 
           <v-col>
-          <v-btn block>Logout</v-btn>
+            <v-btn block>Logout</v-btn>
           </v-col>
 
         </v-flex>
