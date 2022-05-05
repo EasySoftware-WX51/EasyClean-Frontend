@@ -7,7 +7,7 @@
                 <v-card>
                     <v-row wrap>
                         <v-col cols="12" sm="4">
-                            <v-img src="../assets/profileimg.png" height="200" contain></v-img>
+                            <v-img src="../assets/profileimg.png" height="300" contain></v-img>
                         </v-col>
 
                         <v-col cols="12" sm="4">
@@ -29,7 +29,7 @@
                         </v-col>
 
                         <v-col cols="12" sm="4">
-                            <v-card-title>Details</v-card-title>
+                            <v-card-title>Adress</v-card-title>
                             <v-card-text>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Tempore esse sit quae blanditiis accusantium commodi tenetur natus magnam officiis reiciendis, optio est. 
                             Doloremque maxime hic deserunt alias voluptatem similique! Praesentium.
@@ -41,13 +41,30 @@
 
             <v-flex xs12 lg8 mt-10>
                 <v-card>
-                <v-card-title>Lorem, ipsum dolor.</v-card-title>
-                <v-img src="../assets/cleaning-company2.jpeg" height="150" contain></v-img>
-                <v-card-text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, nostrum.</v-card-text>
-                    <v-card-actions>
-                        <v-btn color="info" outlined><router-link to="/" class="text-decoration-none">Aply</router-link></v-btn>
-                    </v-card-actions>
-                    </v-card>
+                    <v-card-title>Details</v-card-title>
+                    <v-card-text>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Tempore esse sit quae blanditiis accusantium commodi tenetur natus magnam officiis reiciendis, optio est. 
+                    Doloremque maxime hic deserunt alias voluptatem similique! Praesentium.
+                    Tempore esse sit quae blanditiis accusantium commodi tenetur natus magnam officiis reiciendis, optio est. 
+                    Doloremque maxime hic deserunt alias voluptatem similique! Praesentium.
+                    Tempore esse sit quae blanditiis accusantium commodi tenetur natus magnam officiis reiciendis, optio est. 
+                    Doloremque maxime hic deserunt alias voluptatem similique! Praesentium.
+                    Tempore esse sit quae blanditiis accusantium commodi tenetur natus magnam officiis reiciendis, optio est. 
+                    Doloremque maxime hic deserunt alias voluptatem similique! Praesentium.
+                    Tempore esse sit quae blanditiis accusantium commodi tenetur natus magnam officiis reiciendis, optio est. 
+                    Doloremque maxime hic deserunt alias voluptatem similique! Praesentium.
+                    Tempore esse sit quae blanditiis accusantium commodi tenetur natus magnam officiis reiciendis, optio est. 
+                    Doloremque maxime hic deserunt alias voluptatem similique! Praesentium.
+                    Tempore esse sit quae blanditiis accusantium commodi tenetur natus magnam officiis reiciendis, optio est. 
+                    Doloremque maxime hic deserunt alias voluptatem similique! Praesentium.
+                    Tempore esse sit quae blanditiis accusantium commodi tenetur natus magnam officiis reiciendis, optio est. 
+                    Doloremque maxime hic deserunt alias voluptatem similique! Praesentium.
+                    Tempore esse sit quae blanditiis accusantium commodi tenetur natus magnam officiis reiciendis, optio est. 
+                    Doloremque maxime hic deserunt alias voluptatem similique! Praesentium.
+                    Tempore esse sit quae blanditiis accusantium commodi tenetur natus magnam officiis reiciendis, optio est. 
+                    Doloremque maxime hic deserunt alias voluptatem similique! Praesentium.
+                    </v-card-text>
+                </v-card>
             </v-flex> 
         </v-layout>
     </v-container>
