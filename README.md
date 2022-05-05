@@ -1,4 +1,4 @@
-# frontt
+# Front-end Web App
 
 ## Project setup
 ```
