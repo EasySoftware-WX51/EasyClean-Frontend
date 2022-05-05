@@ -7,7 +7,7 @@
         <v-card class="mb-10" v-for="(item,index) in arrayRequest" :key="index">
           <v-row>
             <v-col cols="12" sm="4">
-              <v-img v-if="item.id==1" src="../assets/cleaning-company.jpeg" height="200" contain></v-img>
+              <v-img v-if="item.id==1" src="../assets/cleaning-company.jpeg" height="300" contain></v-img>
               <v-img v-if="item.id==2" src="../assets/cleaning-company2.jpeg" height="300" contain></v-img>
               <v-img v-if="item.id==3" src="../assets/cleaning-company3.jpeg" height="300" contain></v-img>
               <v-img v-if="item.id==4" src="../assets/cleaning-company4.jpeg" height="300" contain></v-img>
